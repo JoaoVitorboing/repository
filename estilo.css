@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(59, 237, 151);
+    
+}
+
+.warecare{
+    display: flex;
+
+}
