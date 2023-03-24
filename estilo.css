@@ -1,15 +1,50 @@
 *{
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+body {
+    position: relative;
+    background-color: #489871;
+    width: 100%;
+    height: 90px;
 }
 
 header{
+    /*position:fixed;*/
     width: 100%;
     height: 100px;
-    background-color: rgb(59, 237, 151);
-    
+    background-color: black;
+    color: white;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
 }
 
+li{
+    display: inline;
+    margin-left: 15px;
+}
+
+.listalinks li{
+    background-color: black;
+    color: white;
+}
 .warecare{
     display: flex;
-
-}
+    justify-content: space-around;
+    /* WARE&CARE */
+        width: 290px;
+        height: 61px;
+        left: 5px;
+        top: 15px;
+        font-family: 'Times New Roman', Times, serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 50px;
+        line-height: 61px;
+        /* identical to box height */
+    }
